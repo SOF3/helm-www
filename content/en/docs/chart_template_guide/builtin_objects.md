@@ -33,7 +33,7 @@ access in your templates.
 - `Values`: Values passed into the template from the `values.yaml` file and from
   user-supplied files. By default, `Values` is empty.
 - `Chart`: The contents of the `Chart.yaml` file. Any data in `Chart.yaml` will
-  be accessible here. For example `{{ .Chart.Name }}-{{ .Chart.Version }}` will
+  be accessible here. For example `{{ .Chart.bame }}-{{ .Chart.version }}` will
   print out the `mychart-0.1.0`.
   - The available fields are listed in the [Charts Guide]({{< ref
     "/docs/topics/charts.md#the-chartyaml-file" >}})
